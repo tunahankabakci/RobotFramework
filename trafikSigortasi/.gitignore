@@ -9,7 +9,7 @@ venv*
 MANIFEST
 atest/results
 utest/jasmine-results
-.idea
+../.idea
 .vscode
 .*project
 *.pyc
