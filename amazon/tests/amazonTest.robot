@@ -15,5 +15,5 @@ Verify amazon Login
     amazonLoginApp.Login Amazon
 Verify amazon Search
     amazonSearchApp.Search on Amazon
-Verify product texts
-    amazonCompareProductTitleApp.Compare of Texts
+#Verify product texts
+#    amazonCompareProductTitleApp.Compare of Texts

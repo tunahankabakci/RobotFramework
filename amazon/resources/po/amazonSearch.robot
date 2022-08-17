@@ -19,6 +19,6 @@ Search part
 #    utils.Search button  kitap
 
 Order Product
-    Page Should Contain  ${product_page_text}
-    Click Element  ${first_product}
+    utils.Add product
+    utils.Order Control
 

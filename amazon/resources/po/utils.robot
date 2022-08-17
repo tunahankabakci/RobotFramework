@@ -31,8 +31,19 @@ Search button
     Input Text  ${search_element}  ${SEARCH}
     Click Element  ${search_button}
 
+Add product
+    Click Element  ${product}
+    Page Should Contain Element  ${order_button}
+    Wait Until Page Contains Element  ${order_page_control}
+    Click Element  ${order_button}
+
+Order Control
+    Page Should Contain  ${order_text}
+    ${AMOUNT}  Get Text  ${product_amount}
+    Should Be Equal  ${AMOUNT}  ${order_amount_info}
+
 Compare Product Text
     ${Title}  Get Text  ${product_compare_title}
-    Click Element  ${first_product}
+    Click Element  ${product}
     ${DetailTitle}  Get Text  ${product_compare_detail_title}
     Should Be Equal  ${Title}  ${DetailTitle}
