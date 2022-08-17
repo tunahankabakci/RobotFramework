@@ -27,8 +27,7 @@ search_button="id:nav-search-submit-button"
 product_page_text="Amazon sunar"
 
 #Click Product
-product="xpath://div[@id='search']//span[@data-component-type='s-search-results']/div[contains(@class, 's-main-slot')]/div[@data-index='2']//span[@data-component-type='s-product-image']/a[contains(@class, 'a-link-normal')]"
-
+product="css:div[data-index='2'] h2>a"
 #Add Product
 order_button="id:add-to-cart-button"
 order_page_control="id:deliveryBlockContainer"
@@ -38,7 +37,7 @@ order_amount_info="Alışverişi Tamamla (1 ürün)"
 
 
 #Compare Text
-product_compare_title="xpath://div[@data-index='2']//span[contains(@class, 'a-size-base-plus')]"
+product_compare_title="css:div[data-index='2'] h2>a"
 product_compare_detail_title="id=title"
 
 #For Loop
